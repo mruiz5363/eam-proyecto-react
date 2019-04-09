@@ -1,5 +1,28 @@
+
+.Hola{
+  color: grey;
+ 
+}
+
+.Boton{
+  text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color:grey;
+    background-color: black;
+    border-radius: 6px;
+    border: 2px solid aqua;;
+  }
+  .Boton:hover{
+    color: white;
+    background-color: grey;
+  }
+
+
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -9,14 +32,19 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-image: url('./imagenes/react-128.png');
+  background-position-y: 10%;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-size: 17%;
+  background-color: black;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: grey;
 }
 
 .App-link {
